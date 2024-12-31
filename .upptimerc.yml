@@ -48,9 +48,7 @@ status-website:
       href: https://differentbreed.events
   assignees:
     - craigpryde
-  theme: dark
-  css: 'a.logo img { border-radius: 0 !important; height: 2rem !important; }'
-  
+  theme: dark  
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
