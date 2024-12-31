@@ -1,7 +1,7 @@
-url: https://api-production.differentbreed.events/ms/metrics/health
+url: $URL_API_METRICS
 status: up
 code: 200
-responseTime: 211
-lastUpdated: 2024-12-31T01:10:40.478Z
+responseTime: 576
+lastUpdated: 2024-12-31T01:19:12.426Z
 startTime: 2024-12-31T00:59:57.772Z
 generator: Upptime <https://github.com/upptime/upptime>
