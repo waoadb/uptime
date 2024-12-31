@@ -34,7 +34,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.differentbreed.events
   # baseUrl: /uptime
-  logoUrl: https://universal-images.differentbreed.cloud/commerce/logo/logo.svg
+  logoUrl: https://universal.differentbreed.cloud/logo/logo-status-page.svg
   favicon: https://universal.differentbreed.cloud/favicons/android-chrome-192x192.png
   faviconSvg: https://universal.differentbreed.cloud/favicons/favicon.ico
   name: Different Breed ® Status
@@ -49,6 +49,7 @@ status-website:
   assignees:
     - craigpryde
   theme: dark
+  css: 'a.logo img { border-radius: 0 !important; height: 2rem !important; }'
   
 
 # Upptime also supports notifications, assigning issues, and more
