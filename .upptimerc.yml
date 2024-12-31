@@ -4,27 +4,27 @@ repo: uptime # The name of this repository
 
 sites:
   - name: Main Website
-    url: https://differentbreed.events
+    url: $URL_MAIN_WEBSITE
     expectedStatusCodes:
       - 200
     maxResponseTime: 5000
   - name: Platform
-    url: https://platform.differentbreed.events
+    url: $URL_PLATFORM
     expectedStatusCodes:
       - 200
     maxResponseTime: 5000
   - name: API - Platform
-    url: https://api-production.differentbreed.events/health
+    url: $URL_API_PLATFORM
     expectedStatusCodes:
       - 200
     maxResponseTime: 5000
   - name: API - On Demand
-    url: https://api-production.differentbreed.events/ms/on-demand/health
+    url: $URL_API_ON_DEMAND
     expectedStatusCodes:
       - 200
     maxResponseTime: 5000
   - name: API - Metrics
-    url: https://api-production.differentbreed.events/ms/metrics/health
+    url: $URL_API_METRICS
     expectedStatusCodes:
       - 200
     maxResponseTime: 5000
@@ -34,7 +34,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   baseUrl: /uptime
-  # logoUrl: https://universal-images.differentbreed.cloud/commerce/logo/logo.svg
+  logoUrl: https://universal-images.differentbreed.cloud/commerce/logo/logo.svg
   favicon: https://universal.differentbreed.cloud/favicons/android-chrome-192x192.png
   faviconSvg: https://universal.differentbreed.cloud/favicons/favicon.ico
   name: Different Breed ® Status
