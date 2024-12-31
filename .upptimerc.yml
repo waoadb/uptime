@@ -48,7 +48,7 @@ status-website:
       href: https://differentbreed.events
   assignees:
     - craigpryde
-  theme: dark  
+  themeUrl: https://example.com/waoadb-theme.css  
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
